@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cognitive Decline</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<h1 class="page-title">
+    	Cognitive Decline by Age Group and Demographics
+  	</h1>
+	<div class="responsive-svg-container" id="form">
+  		<label for="sort">Group by</label>
+  		<select id="dimension">
+  			<option value="sex">Sex</option>
+  			<option value="ethnicity">Ethnicity</option>
+		</select>
+	</div>
+	<div id="bar" class="responsive-svg-container"></div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+	<script src="./script.js"></script>
+</body>
+</html>
